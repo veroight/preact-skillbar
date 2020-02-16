@@ -1,7 +1,7 @@
 import style from './style.module.css';
 
 function SkillBar(props) {
-  // const barColor = props.color || randomColor();
+  const barColor = props.barColor || '#d23669';
 
   return (
     <div class={style.barBox}>
@@ -16,8 +16,8 @@ function SkillBar(props) {
         <div
           class={[style.bar, style.animate].join(' ')}
           style={{
-            width: props.percentage + '%'
-            // backgroundColor: barColor
+            width: props.percentage + '%',
+            backgroundColor: barColor
           }}
         />
       </div>

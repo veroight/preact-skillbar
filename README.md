@@ -1,6 +1,4 @@
-# preact-skillbar
-
-Skill Bars to Preact
+# Skill Bars for Preact
 
 ![example](/example.png)
 
@@ -21,7 +19,9 @@ function Skills() {
     <div>
       <SkillBar percentage={70} skill="React" />
 
-      <SkillBar percentage={30} skill="VueJs" />
+      <SkillBar percentage={30} barColor="red" skill="VueJs" />
+
+      <SkillBar percentage={30} barColor="#000000" skill="VueJs" />
     </div>
   );
 }
@@ -31,6 +31,8 @@ export default Skills;
 
 ## Props
 
-| Prop             | Type   | Description |
-| ---------------- | ------ | ----------- |
-| **`percentage`** | Number | 0...100     |
+| Prop             | Type   | Description      |
+| ---------------- | ------ | ---------------- |
+| **`percentage`** | Number | 0...100          |
+| **`barColor`**   | String | Default: #d23669 |
+| **`skill`**      | String | skill name       |
