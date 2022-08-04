@@ -1,7 +1,7 @@
 {
   "name": "preact-skillbar",
-  "version": "0.9.2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A simple skillbar component for preact",
   "source": "src/index.js",
   "main": "dist/index.js",
   "scripts": {
