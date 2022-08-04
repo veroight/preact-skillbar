@@ -1,6 +1,6 @@
 # Skill Bars for Preact
 
-![example](/example.png)
+![example](https://raw.githubusercontent.com/veroight/preact-skillbar/master/example.png)
 
 # Installation
 
